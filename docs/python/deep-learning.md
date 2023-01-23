@@ -19,3 +19,50 @@ This is the suggested saving format of Native Keras, which also saves everything
 - [Source 1](https://stackoverflow.com/questions/59887312/when-to-use-the-ckpt-vs-hdf5-vs-pb-file-extensions-in-tensorflow-model-saving)
 - [Source 2](https://www.tensorflow.org/tutorials/keras/save_and_load#manually_save_weights)
 
+
+## Understanding the parameters
+
+For Dense Layers:
+```bash
+output_size * (input_size + 1) == number_parameters 
+```
+
+For Conv Layers:
+```bash
+output_channels * (input_channels * window_size + 1) == number_parameters
+```
+Consider following example,
+
+```bash
+model = Sequential([
+Conv2D(32, (3, 3), activation='relu', input_shape=input_shape),
+Conv2D(64, (3, 3), activation='relu'),
+Conv2D(128, (3, 3), activation='relu'),
+Dense(num_classes, activation='softmax')
+])
+
+model.summary()
+
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 222, 222, 32)      896       
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 220, 220, 64)      18496     
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 218, 218, 128)     73856     
+_________________________________________________________________
+dense_9 (Dense)              (None, 218, 218, 10)      1290      
+=================================================================
+```
+
+Calculating params,
+
+```bash
+assert 32 * (3 * (3*3) + 1) == 896
+assert 64 * (32 * (3*3) + 1) == 18496
+assert 128 * (64 * (3*3) + 1) == 73856
+assert num_classes * (128 + 1) == 1290
+```
+Sources:
+- [Source](https://stackoverflow.com/questions/36946671/keras-model-summary-result-understanding-the-of-parameters)

@@ -65,3 +65,18 @@ Find size
 ```bash
 du -hs .[^.]*
 ```
+
+ls but ignore "*"
+```bash
+ls -lhrt --ignore="*.jpg" --ignore="*.png"
+```
+
+conunt file
+```bash
+ls | wc -l
+````
+
+Detail for process
+```bash
+ps -ef | grep <id>
+```

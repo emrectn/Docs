@@ -40,7 +40,10 @@ module.exports = {
           'machine-learning',
           'deep-learning',
           'opencv',
-          'onnx']
+          'onnx',
+          'pydantic',
+          'pytest'
+        ]
       }],
 
       '/genel/':  [{
@@ -76,9 +79,8 @@ module.exports = {
         title: 'Guide Docs',
         collapsable: false,
         children: [
-          'advanced',
-          'customize',
-          'getting-started']
+          '',
+          'intern']
       }],
     },
     lastUpdated: 'Last Updated'
