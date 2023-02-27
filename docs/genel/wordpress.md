@@ -1,0 +1,2 @@
+## Wordpress
+    - Ssl için

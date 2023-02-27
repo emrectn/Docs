@@ -80,3 +80,33 @@ Detail for process
 ```bash
 ps -ef | grep <id>
 ```
+
+Find which process is using port
+lsof -i -P | grep LISTEN | grep :8081
+lsof -nP -i4TCP:$PORT | grep LISTEN
+
+#### Create your own script in bash with arguments
+
+```bash
+
+#!/bin/bash
+ke () {
+  kubectl exec -it $1 bash
+}
+
+```
+
+
+#### Load Env
+```bash
+
+ENV_FILE="$1"
+CMD=${@:2}
+
+set -o allexport
+source $ENV_FILE
+set +o allexport
+
+$CMD
+
+```
