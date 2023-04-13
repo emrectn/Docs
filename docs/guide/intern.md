@@ -7,8 +7,11 @@
 ## Skills Check
     - Git
     - Binary Search, Bubble Sort, Selection Sort, Merge Sort
-    - LinkedList, ArrayList
+    - LinkedList, ArrayList,
     - 
+## Kutay
+* asdasd
+
 
 ## ToLook
 
