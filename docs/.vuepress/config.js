@@ -52,6 +52,8 @@ module.exports = {
         children: [
           '',
           'genel-notes',
+          'postgresql',
+          'wordpress',
           'tools']
       }],
 
@@ -80,7 +82,8 @@ module.exports = {
         collapsable: false,
         children: [
           '',
-          'intern']
+          'intern',
+          'turkcell']
       }],
     },
     lastUpdated: 'Last Updated'

@@ -2,9 +2,11 @@
 
 ## Useful Website
 
-#### Deploy Your Projects 
+#### Deploy Your Projects
 - https://www.netlify.com/
 - https://www.heroku.com/
+- https://vpsfree.org/ - Free Server
+- https://www.scaleway.com/en/pricing/?tags=compute - low cost server
 
 #### Utils
 - ToDraw Anything - https://excalidraw.com/

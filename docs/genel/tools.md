@@ -82,3 +82,7 @@ Solution: RightClick training file -> Mark as source root
 
 doskey docker=podman #In command prompt
 Set-Alias -Name docker -Value podman # in powershell prompt
+
+## Pycharm 
+“Python exited with error code: <139>, message:<>”
+https://stackoverflow.com/questions/45016449/pycharm-debugger-instantly-exits-with-139-code

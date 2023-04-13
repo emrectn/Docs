@@ -20,6 +20,9 @@
     kubectl rollout history deployment <<DEPLOYMENT_NAME>>
     kubectl rollout undo deployment <<DEPLOYMENT_NAME>>
 
+    # Copy File from pod to local
+    kubectl get pods
+    kubectl cp POD_NAME:FILE_PATH ./
 
 ```
 
