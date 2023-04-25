@@ -7,7 +7,7 @@
 ## Skills Check
     - Git
     - Binary Search, Bubble Sort, Selection Sort, Merge Sort
-    - LinkedList, ArrayList
+    - LinkedList, ArrayList,
 
 
 ## ------
@@ -18,6 +18,9 @@
     Network basics, SSH,SFTP kullanımı
     Memory kullanımı( Heap Memory stack memory kullanımı nedir?),reference cycles
     Precision,Recall,Accuracy,F1 score gibi başarı metriklerinin kullanımı
+
+## Kutay
+* asdasd
 
 
 ## ToLook
