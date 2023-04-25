@@ -26,8 +26,9 @@ module.exports = {
           'general',
           'git',
           'jetson',
+          'kubernetes',
           'nginx',
-          'nvidia'
+          'nvidia',
         ]
       }],
 
@@ -36,14 +37,14 @@ module.exports = {
         collapsable: false,
         children: [
           '',
+          'deep-learning',
           'general',
           'logger',
           'machine-learning',
-          'deep-learning',
-          'opencv',
-          'onnx',
           'pydantic',
-          'pytest'
+          'opencv',
+          'pytest',
+          'onnx',
         ]
       }],
 
@@ -63,13 +64,14 @@ module.exports = {
         collapsable: false,
         children: [
           '',
-          'guide',
           'deployment',
           'face_recognition',
+          'guide',
+          'jetson-installation',
+          'qualcom',
           'server',
           'snpe-docker',
-          'jetson-installation',
-          'qualcom']
+        ]
       }],
 
       '/lifehacks/':  [{
@@ -85,7 +87,8 @@ module.exports = {
         children: [
           '',
           'intern',
-          'turkcell']
+          'turkcell',
+        ]
       }],
     },
     lastUpdated: 'Last Updated'
