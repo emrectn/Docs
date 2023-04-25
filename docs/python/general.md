@@ -129,11 +129,11 @@ jupyter notebook --no-browser --ip='*' --NotebookApp.token='' --NotebookApp.pass
 class ContextManager():
     def __init__(self):
         print('init method called')
-         
+
     def __enter__(self):
         print('enter method called')
         return self
-     
+
     def __exit__(self, exc_type, exc_value, exc_traceback):
         print('exit method called')
 
@@ -210,3 +210,9 @@ class UserStates:
 
 user_states = UserStates()
 ```
+
+## File Extension Check
+https://github.com/ahupp/python-magic
+
+## Rate Limiter
+https://github.com/laurentS/slowapi , java için bucket4j

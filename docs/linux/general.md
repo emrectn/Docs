@@ -28,7 +28,7 @@ ii  nvidia-container-csv-tensorrt                 7.1.3.0-1+cuda10.2            
 ii  nvidia-container-csv-visionworks              1.6.0.501                                        arm64        Jetpack VisionWorks CSV file
 ii  nvidia-container-runtime                      3.1.0-1                                          arm64        NVIDIA container runtime
 ii  nvidia-container-toolkit                      1.0.1-1                                          arm64        NVIDIA container runtime hook
-ii  nvidia-docker2  
+ii  nvidia-docker2
 So you could try installing those packages manually. This list above was gathered from JetPack 4.5.
 ```
 https://forums.developer.nvidia.com/t/docker-runtime-to-access-the-gpu-jetson-nx/173189/9
@@ -109,4 +109,9 @@ set +o allexport
 
 $CMD
 
+```
+
+#### Benchmark to website
+```bash
+ab -c 100 -n 100 https://login.your_domain.com/
 ```

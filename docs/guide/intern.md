@@ -51,5 +51,3 @@
         Backtracking (N-Queens Problem, Sudoku Solver, etc.)
         These subtopics cover various types of data structures and algorithms and their implementation in Python. Understanding these concepts and being able to implement them efficiently is an important aspect of advanced Python programming.
 
-
-## Deneme

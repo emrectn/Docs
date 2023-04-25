@@ -16,3 +16,5 @@ yanbing01.turkcell.tgc
 ./exec/gracefulRestart-Nginx
 
 ````
+## Adding hsts header
+https://crashtest-security.com/enable-hsts/

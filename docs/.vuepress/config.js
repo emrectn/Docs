@@ -26,10 +26,11 @@ module.exports = {
           'general',
           'git',
           'jetson',
+          'nginx',
           'nvidia'
         ]
       }],
-      
+
       '/python/':  [{
         title: 'Python Docs',
         collapsable: false,
@@ -62,6 +63,7 @@ module.exports = {
         collapsable: false,
         children: [
           '',
+          'guide',
           'deployment',
           'face_recognition',
           'server',
@@ -69,14 +71,14 @@ module.exports = {
           'jetson-installation',
           'qualcom']
       }],
-      
+
       '/lifehacks/':  [{
         title: 'Lifehacks Docs',
         collapsable: false,
         children: [
           '']
       }],
-      
+
       '/guide/':  [{
         title: 'Guide Docs',
         collapsable: false,
