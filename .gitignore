@@ -6,3 +6,6 @@ vuepress
 TODOs.md
 dist
 deploy
+.vscode/
+.idea/
+
