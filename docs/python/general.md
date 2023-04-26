@@ -216,3 +216,7 @@ https://github.com/ahupp/python-magic
 
 ## Rate Limiter
 https://github.com/laurentS/slowapi , java için bucket4j
+
+## HSTS Header
+https://secure.readthedocs.io/en/latest/frameworks.html
+https://github.com/tmotagam/Secweb
