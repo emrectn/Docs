@@ -16,6 +16,22 @@ yanbing01.turkcell.tgc
 ./exec/gracefulRestart-Nginx
 
 ````
+
+## LoadBalancer IP için
+```bash
+Güvenlik -> LoadBalancer
+	- AÇıklama: AIHUB Sİma SErvisi Test ortamı load balancer
+	- Segment Tipi : DMZ
+	- LB-Virtual IP: YOK
+	- LB-Protokol: TCP
+	- LB-PORT 443
+
+	-LB Sunucu Bilgileri
+		- Yeni EKLE
+			- BağlıSunucu: Yanbing
+			- Nginx subConf'tan bakalım 8043 seçildi.
+````
+
 ## Adding hsts header
 https://crashtest-security.com/enable-hsts/
 

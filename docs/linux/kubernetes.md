@@ -3,7 +3,10 @@
 ## Commands
 ```bash
 
-    kubectl config current-context 
+    # Login Url
+    # https://oauth-openshift.apps.tocpgt01.tcs.turkcell.tgc/oauth/token/display
+
+    kubectl config current-context
     kubectl -n kube-system edit configmap/coredns
     kubectl get ns
     kubectl -n kubernetes-dashboard get pods -o wide
@@ -24,8 +27,16 @@
     kubectl get pods
     kubectl cp POD_NAME:FILE_PATH ./
 
+
+
 ```
 
+#### Run a command in a shell
+
+```bash
+    command: ["/bin/sh"]
+    args: ["-c", "while true; do echo hello; sleep 10;done"]
+```
 Readiness -> Hazır mı ben trafik yollayım mı?
 Liveness -> Ara, ara kontrol ve canlı mı ?
 
@@ -42,6 +53,6 @@ Envoy
     - Gelen giden tüm trafiği izler ve gerekli rullar yazılabiliyor.
 
 Istio
-    -   
+    -
 
 
