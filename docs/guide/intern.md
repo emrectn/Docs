@@ -54,3 +54,23 @@
         Backtracking (N-Queens Problem, Sudoku Solver, etc.)
         These subtopics cover various types of data structures and algorithms and their implementation in Python. Understanding these concepts and being able to implement them efficiently is an important aspect of advanced Python programming.
 
+## Interview Question
+```python
+    class MyClass:
+        class_variable = "I am a class variable"
+
+        def __init__(self, instance_variable):
+            self.instance_variable = instance_variable
+
+    MyClass.class_variable = "Emre class variable"
+    print(obj2.class_variable)
+    print(obj1.class_variable)
+
+    obj1 = MyClass("Instance 1")
+    obj2 = MyClass("Instance 2")
+
+    print(obj1.instance_variable)
+    print(obj2.instance_variable)
+
+
+```

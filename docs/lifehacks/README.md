@@ -3,14 +3,15 @@
 ## Useful Website
 
 #### Deploy Your Projects
-- https://www.netlify.com/
-- https://www.heroku.com/
-- https://vpsfree.org/ - Free Server
-- https://www.scaleway.com/en/pricing/?tags=compute - low cost server
+- [Netlify](https://www.netlify.com/)
+- [Heroku](https://www.heroku.com/)
+- [VPSFree](https://vpsfree.org/) - Free Server
+- [ScaleWay](https://www.scaleway.com/en/pricing/?tags=compute) - low cost server
 
 #### Productive Website
-- https://12ft.io/ -
-- https://sci-hub.se/
+- [12FtIO](https://12ft.io/)
+- [SciHub](https://sci-hub.se/)
+- [Replit](https://repl.it/)
 
 #### Computer Science
 - [Programming Gifs](https://blog.penjee.com/computer-programming-gifs-all-of-em/)
@@ -18,6 +19,7 @@
 
 
 #### Utils
-- ToDraw Anything - https://excalidraw.com/
-- ToDrawl UML from code - https://plantuml.com/
-- ToInstall Windows Programs Easily https://ninite.com/
+- ToDraw Anything - [ExcaliDraw](https://excalidraw.com/)
+- ToDraw Anything - [TlDraw](https://www.tldraw.com/)
+- ToDrawl UML from code - [PlantUML](https://plantuml.com/)
+- ToInstall Windows Programs Easily [Ninite](https://ninite.com/)

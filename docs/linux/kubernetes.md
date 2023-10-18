@@ -27,6 +27,9 @@
     kubectl get pods
     kubectl cp POD_NAME:FILE_PATH ./
 
+    # Copy Folder from pod to local
+    kubectl rsync LOCAL_FOLDER_PATH POD_NAME:REMOTE_FOLDER_PATH
+
 
 
 ```
