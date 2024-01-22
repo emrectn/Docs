@@ -14,7 +14,8 @@ module.exports = {
       { text: "Genel", link: "/genel/" },
       { text: "Tcell", link: "/tcell/" },
       { text: "LifeHacks", link: "/lifehacks/" },
-      { text: "Guide", link: "/guide/" }
+      { text: "Guide", link: "/guide/" },
+      { text: "Aihub Docs", link: "/apidoc/" },
     ],
     sidebar: {
       '/linux/':  [{
