@@ -82,18 +82,18 @@ ps -ef | grep <id>
 ```
 
 Find which process is using port
+```bash
 lsof -i -P | grep LISTEN | grep :8081
 lsof -nP -i4TCP:$PORT | grep LISTEN
+``````
 
 #### Create your own script in bash with arguments
 
 ```bash
-
 #!/bin/bash
 ke () {
   kubectl exec -it $1 bash
 }
-
 ```
 
 

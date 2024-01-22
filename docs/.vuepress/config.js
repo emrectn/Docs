@@ -29,6 +29,7 @@ module.exports = {
           'kubernetes',
           'nginx',
           'nvidia',
+          'tmux',
         ]
       }],
 
@@ -88,6 +89,16 @@ module.exports = {
           '',
           'intern',
           'turkcell',
+        ]
+      }],
+
+      '/apidoc/':  [{
+        title: 'Aihub Api Docs',
+        collapsable: false,
+        children: [
+          '',
+          'aihub-sima',
+          'aihub-optik',
         ]
       }],
     },

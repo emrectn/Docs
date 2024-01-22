@@ -211,6 +211,27 @@ class UserStates:
 user_states = UserStates()
 ```
 
+## Execute Function using Thread
+```python
+    from concurrent.futures import ProcessPoolExecutor
+
+    # Örnek bir işlev
+    def square(x):
+        return x**2
+
+    # Bir dizi giriş
+    numbers = [1, 2, 3, 4, 5]
+
+    # ProcessPoolExecutor kullanarak işlemleri paralel olarak yürütme
+    with ProcessPoolExecutor() as executor:
+        # square fonksiyonunu numbers listesi üzerinde paralel olarak uygula
+        result = list(executor.map(square, numbers))
+
+    # Sonuçları yazdır
+    print(result)
+
+``````
+
 ## File Extension Check
 https://github.com/ahupp/python-magic
 
