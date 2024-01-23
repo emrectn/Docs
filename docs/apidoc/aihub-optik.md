@@ -1,5 +1,9 @@
 # Aihub Optik
 
+## PreRequest
+Before using this API, subscribe to the service and complete authentication. For details, see {AıHubDocumentationURL-Subscription/ } and {AıHubDocumentationURL-Authentication}
+
+
 ## Request
 
 - HTTP Method: `PUT`
@@ -29,6 +33,14 @@ fetch('http://example.com/users/1', {
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
+
+## Response Parameters
+
+| Property | Type | Required | Description |
+| -------- | ---- | -------- | ----------- |
+| ``name`` | String | false | The name of the user. |
+| ``Status`` | Number | false | 200 |
+
 
 ## Response example
 
