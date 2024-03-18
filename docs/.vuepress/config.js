@@ -65,8 +65,8 @@ module.exports = {
         ]
       }],
 
-      '/tcell/':  [{
-        title: 'Turkcell Docs',
+      '/tdocs/':  [{
+        title: 'TDocs',
         collapsable: false,
         children: [
           '',
@@ -94,16 +94,6 @@ module.exports = {
           '',
           'intern',
           'turkcell',
-        ]
-      }],
-
-      '/apidoc/':  [{
-        title: 'Aihub Api Docs',
-        collapsable: false,
-        children: [
-          '',
-          'aihub-sima',
-          'aihub-optik',
         ]
       }],
     },
