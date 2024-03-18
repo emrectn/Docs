@@ -58,7 +58,11 @@ module.exports = {
           'genel-notes',
           'postgresql',
           'wordpress',
-          'tools']
+          'tools',
+          'finance101',
+          'communication101',
+          'seo'
+        ]
       }],
 
       '/tcell/':  [{

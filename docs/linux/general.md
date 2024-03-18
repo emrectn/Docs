@@ -115,3 +115,8 @@ $CMD
 ```bash
 ab -c 100 -n 100 https://login.your_domain.com/
 ```
+
+#### Curl
+```bash
+curl -v https://asdasd
+``````
