@@ -171,6 +171,35 @@ Gracefull shuttdown
     -   Term sinyalini yolladıktan sonra 10 bekler. 10 sn terminatingte kalırsa otomatik kill edilir.
 
 -------------------------
+
+#### Edit CoreDNS
+```bash
+
+# Edit CoreDns
+kubectl -n kube-system edit configmap/coredns
+
+# Restart CoreDns
+kubectl rollout restart -n kube-system deployment/coredns
+
+# Get Pods Status KubeSystem
+kubectl -n kube-system get pods
+```
+
+#### Port Forwarding
+```bash
+
+kubectl -n kubernetes-dashboard port-forward $POD_NAME 8443:8443
+kubectl port-forward service/aihub-usage-aihub-postgres 5432:5432
+
+```
+
+#### Access Pod in Other Pod
+```bash
+
+curl -v http://aihub-resource-http.aihub-dev.svc.cluster.local:8080/v0/workspaces --header 'Authorization: Bearer XXX'
+
+```
+
 #### To Look
 
 Helm

@@ -85,6 +85,7 @@ Find which process is using port
 ```bash
 lsof -i -P | grep LISTEN | grep :8081
 lsof -nP -i4TCP:$PORT | grep LISTEN
+lsof -i :5432
 ``````
 
 #### Create your own script in bash with arguments

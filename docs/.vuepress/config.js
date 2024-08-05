@@ -12,10 +12,8 @@ module.exports = {
       { text: "Linux", link: "/linux/" },
       { text: "Python", link: "/python/" },
       { text: "Genel", link: "/genel/" },
-      { text: "Tcell", link: "/tcell/" },
       { text: "LifeHacks", link: "/lifehacks/" },
       { text: "Guide", link: "/guide/" },
-      { text: "Aihub Docs", link: "/apidoc/" },
     ],
     sidebar: {
       '/linux/':  [{

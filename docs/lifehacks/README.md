@@ -12,20 +12,19 @@
 - [12FtIO](https://12ft.io/)
 - [SciHub](https://sci-hub.se/)
 - [Replit](https://repl.it/)
-- [TestContainer] (https://testcontainers.com/)
-- https://1ft.io/
-- https://freedium.cfd/
-- https://archive.is/
-
+- [TestContainer](https://testcontainers.com/)
+- [1ft](https://1ft.io/)
+- [Freedium](https://freedium.cfd/)
+- [Archive](https://archive.is/)
 
 #### Computer Science
 - [Programming Gifs](https://blog.penjee.com/computer-programming-gifs-all-of-em/)
 - [Mathmetical Gifs](https://www.mathwarehouse.com/custom-search/?cx=partner-pub-1577838290985250:r5dtpk-estk&cof=FORID:9&ie=ISO-8859-1&q=search&sa=Search)
 
 #### Book Database
-- https://www.libgen.is/
-- https://singlelogin.re/
--
+- [Libgen](https://www.libgen.is/)
+- [SingleLogin](https://singlelogin.re/)
+
 #### Utils
 - ToDraw Anything - [ExcaliDraw](https://excalidraw.com/)
 - ToDraw Anything - [TlDraw](https://www.tldraw.com/)
